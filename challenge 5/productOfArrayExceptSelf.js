@@ -14,7 +14,7 @@ var productExceptSelf = function (array) {
   }
 
   for (let i = 0; i < n; i++) {
-    answers[i] = prefix[i] * postFix[i];
+    answers[i] = prefix[i] * postFix[i]; 
   }
   return answers;
 };
