@@ -10,8 +10,9 @@ var maxProduct = function (nums) {
     currentMinProduct = Math.min(temp, currentMinProduct * num, num);
 
       result = Math.max(result,currentMaxProduct)
-      return result
+     
   }
+  return result
 };
 
-console.log(maxProduct([3, 2, -3, 5, -4, 2, 4, 6]));
+console.log(maxProduct([2,3,-2,4]));
